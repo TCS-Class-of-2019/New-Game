@@ -1,5 +1,1 @@
 This is where we will keep all of our notes and ideas for the game.
-Since we are just starting out, I think it is appropriate to use a simple, if maybe old-fashioned GUI just to keep things doable.  For this reason I think we should use tkinterfor our interface.
-tkinter is the standard graphical user interface for python users and will give us all the functinoality needed for our game.
-Given, it will not look amazing, but we if we find another interface that is just as easy to use and is better looking, we'll use that.
-Some open options are blender and unity, two very solid game engines, both free, but a bit more complicated.
