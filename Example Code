@@ -1,0 +1,6 @@
+import pygame # this imports the pygame module
+
+pygame.init() # this initializes everything needed for a game
+
+gameDisplay = pygame.display.set_mode((800,600)) # this makes a window 800 X 600 pixels
+pygame.display.set_caption("Game") # this makes the title of the window "Game"
