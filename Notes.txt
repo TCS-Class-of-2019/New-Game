@@ -1,1 +1,6 @@
 This is where we will keep all of our notes and ideas for the game.
+
+
+This is a link for a very helpful tutorial about pygame, the module we will be using for our game: https://pythonprogramming.net/pygame-python-3-part-1-intro/
+
+Before pygame will work, though, you have to install it to your computer along with python if you don't already have it.  Once these are loaded, you can use them and test out the new code in the example code file.
