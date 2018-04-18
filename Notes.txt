@@ -1,6 +1,90 @@
 This is where we will keep all of our notes and ideas for the game.
 
 
-This is a link for a very helpful tutorial about pygame, the module we will be using for our game: https://pythonprogramming.net/pygame-python-3-part-1-intro/
+This is a link for a very helpful tutorial about pygame, the module we will be using for our game: 
+https://pythonprogramming.net/pygame-python-3-part-1-intro/
 
-Before pygame will work, though, you have to install it to your computer along with python if you don't already have it.  Once these are loaded, you can use them and test out the new code in the example code file.
+Before pygame will work, though, you have to install it to your computer along with python if you don't already have it. 
+Once these are loaded, you can use them and test out the new code in the example code file.
+------------------------------------------------------------------------------------------------------------------------
+For the outer workings of the game, there is a lot to sort out.  Because this is our first game it shouldn't be anything too ambitious.
+We'll save that for our final project.  We should make it 2D, but the question is: what kind of game should it be?
+It has to be timeless, playable, preferably with a two player option, and it has to be simplistic yet classy.
+I've chosen some basic game genres. Feel free to add to the list.
+
+-Tower Defense
+-"Battle Cats" style defense
+-Angry Birds
+-Fighting
+-Simulator
+-Racing
+-Party/Group games
+-Battle Royale :)
+-Arcade
+-Puzzle
+-One-button-bob
+
+The basic look of the games in all instances would be about the same: same color scheme, menu, and the like.
+It would just be the actual game that was different. Speaking of color scheme, that also has to be decided.
+Like in any serious game, the look of the game could make or break it.  Obviously we can't make crazy graphics.
+However, we can make a classy black theme with neon highlights: think "Axe", "5 gum", etc. It doesn't look bad.
+Also, since we don't have the skills to make amazing characters and detailed environments, an arcade background would do
+Our characters/gameplay objects would be colored shapes in a black arcade style environment.
+Of course the extent of this theme would depend on the type of game chosen, but all-in-all pretty universal.
+-----------------------------------------------------------------------------------------------------------------------
+
+Tower Defense:
+  neon path, diff. powered shape towers
+  neon expolosions, diff. colored enemies
+  Pros: FUN, simple, dynamic, timeless
+  Cons: Many levels
+  
+"Battle Cats":
+  white home base, enemy black base
+  send diff. colored attack untis against black's
+  Pros: FUN, two player cooperative
+  Cons: Many levels, lots of menus for level up screens
+  
+Angry Birds:
+  break enemy's base w/ colored, powered shapes
+  TNT, and diff. materials rep. by colors
+  Pros: timeless, familiar
+  Cons: SO many levels, it's been done before
+  
+Fighting:
+  Not exactly sure how this would work
+  Pros: challenge
+  Cons: theme won't work
+  
+Simulator:
+  In a black world, build using shapes.
+  Combine shapes to get new materials
+  Pros: very dynamic, two-player possible
+  Cons: very complicated, possibly limited
+  
+Racing: 
+  Again, don't exatly have a vision for this
+  Pros: racing is cool
+  Cons: don't know how it would work, yet.
+  
+Party Game:
+  play diff. games in a black plane
+  tag, capture flag, simon says, etc.
+  Pros: very multiplayer
+  Cons: a bit involved
+  
+Battle Royale:
+  fight AI or friends in a black plane
+  bushes, building, and weapons as shapes
+  Pros: free-for-all fun, it worked for Fortnite
+  Cons: AI programming(not too bad), big
+  
+Arcade:
+  play tetris/mario/pacman type game
+  Pros: retro, simple, playable
+  Cons: old, maybe too easy
+
+
+
+
+
