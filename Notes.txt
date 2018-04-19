@@ -1,12 +1,15 @@
 This is where we will keep all of our notes and ideas for the game.
 
+Update 1.0.0 ----------------------------------------------------------------------------------------------------------
 
 This is a link for a very helpful tutorial about pygame, the module we will be using for our game: 
 https://pythonprogramming.net/pygame-python-3-part-1-intro/
 
 Before pygame will work, though, you have to install it to your computer along with python if you don't already have it. 
 Once these are loaded, you can use them and test out the new code in the example code file.
-------------------------------------------------------------------------------------------------------------------------
+
+Update 1.0.1 ----------------------------------------------------------------------------------------------------------
+
 For the outer workings of the game, there is a lot to sort out.  Because this is our first game it shouldn't be anything too ambitious.
 We'll save that for our final project.  We should make it 2D, but the question is: what kind of game should it be?
 It has to be timeless, playable, preferably with a two player option, and it has to be simplistic yet classy.
@@ -31,7 +34,8 @@ However, we can make a classy black theme with neon highlights: think "Axe", "5 
 Also, since we don't have the skills to make amazing characters and detailed environments, an arcade background would do
 Our characters/gameplay objects would be colored shapes in a black arcade style environment.
 Of course the extent of this theme would depend on the type of game chosen, but all-in-all pretty universal.
------------------------------------------------------------------------------------------------------------------------
+
+Update 1.0.2 -------------------------------------------------------------------------------------------------------
 
 Tower Defense:
   neon path, diff. powered shape towers
@@ -84,7 +88,25 @@ Arcade:
   Pros: retro, simple, playable
   Cons: old, maybe too easy
 
+Puzzle:
+  solve a puzzle problem made in the game
+  Pros: simple, easy
+  Cons: simple, easy
+  
+One-button-bob:
+  basically a game where only one button is used
+  does a variety of things, trying to dodge obstacles
+  Pros: very simple, fun, timeless
+  Cons: lots of obstacles, once and done
 
+This has been an overview of the types of game we can make.  Again, feel free to give suggestions.
+Look at the pros and cons of each: I feel like our game should be one of the folowing:
+Tower Defense, Battle Cats, Battle Royale, One-button-bob
+These game seem to be 1. the most fun 2. the easiest for beginners 3. games that will be played
+
+Please add any thoughts: this file should only grow.
+
+----------------------------------------------------------------------------------------------------------
 
 
 
