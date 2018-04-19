@@ -106,7 +106,11 @@ These game seem to be 1. the most fun 2. the easiest for beginners 3. games that
 
 Please add any thoughts: this file should only grow.
 
-----------------------------------------------------------------------------------------------------------
+Update 1.1.0 --------------------------------------------------------------------------------------------------
 
+I (MattZ45986) have added some example code to show you the power and simplicity of the pygame module.
+Use the friendly Bob.png file and the pygame module(you have to download Bob into the script's folder)
+When executed properly, you should be able to move bob around to all edges of the black screen.
 
+----------------------------------------------------------------------------------------------------------------
 
