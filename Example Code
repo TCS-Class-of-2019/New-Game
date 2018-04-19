@@ -1,6 +1,54 @@
-import pygame # this imports the pygame module
+import pygame
 
-pygame.init() # this initializes everything needed for a game
+pygame.init()
 
-gameDisplay = pygame.display.set_mode((800,600)) # this makes a window 800 X 600 pixels
-pygame.display.set_caption("Game") # this makes the title of the window "Game"
+gameDisplay = pygame.display.set_mode((800,600))
+pygame.display.set_caption("Hello World")
+
+crashed = False
+
+bob = pygame.image.load('Bob.png')
+
+def move(x,y):
+    gameDisplay.blit(bob, (x,y))
+
+x = 360
+y = 480
+xMove = 0
+yMove = 0
+
+while not crashed:
+
+    for event in pygame.event.get():
+        if event.type == pygame.QUIT:
+            crashed = True
+        if event.type == pygame.KEYDOWN:
+            if event.key == pygame.K_RIGHT:
+                xMove = 2
+            elif event.key == pygame.K_LEFT:
+                xMove = -2
+            elif event.key == pygame.K_UP:
+                yMove = -2
+            elif event.key == pygame.K_DOWN:
+                yMove = 2
+        elif event.type == pygame.KEYUP:
+            if event.key in (pygame.K_LEFT, pygame.K_RIGHT):
+                xMove = 0
+            if event.key in (pygame.K_UP, pygame.K_DOWN):
+                yMove = 0
+            
+    x += xMove
+    y += yMove
+    if x > 770: x = 770
+    if x < 0: x = 0
+    if y > 540: y = 540
+    if y < 0: y = 0
+    
+    gameDisplay.fill((1,1,1))
+    move(x,y)
+
+
+    pygame.display.update()
+
+pygame.quit()
+quit()
