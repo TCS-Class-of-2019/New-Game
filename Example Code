@@ -1,11 +1,13 @@
+# Code based on that of the pygame programming tutorial at pythonprogramming.net
+
 import pygame
 
 pygame.init()
 
 gameDisplay = pygame.display.set_mode((800,600))
-pygame.display.set_caption("Hello World")
+pygame.display.set_caption("Bob's Adventure")
 
-crashed = False
+done = False
 
 bob = pygame.image.load('Bob.png')
 
@@ -17,7 +19,7 @@ y = 480
 xMove = 0
 yMove = 0
 
-while not crashed:
+while not done:
 
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
