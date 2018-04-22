@@ -118,5 +118,11 @@ MattZ45986 here again, and this time with a tower defense protoype that sends in
 If we were to make a tower defense game, this is what it would look like on the most basic level.
 Use the Tower-Defense-Prototype.py code in the same folder as the Dot.png file, both of which are new.
 
+Update 1.1.2 --------------------------------------------------------------------------------------------------
+
+This update includes a modification of the tower-defense-prototype code. Now, keys affect the speed of enemies.
+When 1 is pressed an enemy comes out at speed one. When 9 is pressed, a nine-speed enemy is spawned.
+This will mimic the game in that there will be different speed enemies.
+
 ---------------------------------------------------------------------------------------------------------------
 
