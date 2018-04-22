@@ -124,5 +124,10 @@ This update includes a modification of the tower-defense-prototype code. Now, ke
 When 1 is pressed an enemy comes out at speed one. When 9 is pressed, a nine-speed enemy is spawned.
 This will mimic the game in that there will be different speed enemies.
 
----------------------------------------------------------------------------------------------------------------
+Update 1.1.3 --------------------------------------------------------------------------------------------------
 
+1.1.3 features yet another addition to the tower-defense-prototype game. However, it could apply to all games.
+In the latest update the game has been given a start menu and will enter the game when the start button is pushed.
+Since this is a universal need, it will apply to any game we decide to make. Also the track is a bit crazier.
+
+---------------------------------------------------------------------------------------------------------------
