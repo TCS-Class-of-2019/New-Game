@@ -112,5 +112,11 @@ I (MattZ45986) have added some example code to show you the power and simplicity
 Use the friendly Bob.png file and the pygame module(you have to download Bob into the script's folder)
 When executed properly, you should be able to move bob around to all edges of the black screen.
 
-----------------------------------------------------------------------------------------------------------------
+Update 1.1.1 --------------------------------------------------------------------------------------------------
+
+MattZ45986 here again, and this time with a tower defense protoype that sends in enemies with every key press.
+If we were to make a tower defense game, this is what it would look like on the most basic level.
+Use the Tower-Defense-Prototype.py code in the same folder as the Dot.png file, both of which are new.
+
+---------------------------------------------------------------------------------------------------------------
 
