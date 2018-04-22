@@ -8,6 +8,8 @@ pygame.init()
 
 gameDisplay = pygame.display.set_mode((800,600))
 pygame.display.set_caption("TOWER DEFENSE")
+gameIcon = pygame.image.load('Icon.png')
+pygame.display.set_icon(gameIcon)
 
 
 crashed = False
@@ -20,8 +22,8 @@ class Dot(object):
         self.pos = list(self.points[self.point])
         self.img = coin
         self.speed = speed
-        if self.speed > 1: self.speed = 1
-        elif self.speed < .1: self.speed = .1
+        #if self.speed > 1: self.speed = 1
+        #elif self.speed < .1: self.speed = .1
         
 
     def display(self):
@@ -45,7 +47,7 @@ class Dot(object):
         xGoal = self.points[self.point + 1][0]
         yNow = round(self.pos[1])
         yGoal = self.points[self.point + 1][1]
-        if (xNow ==  xGoal and  yNow == yGoal) or (self.pos[0] > self.points[self.point +1][0] and x > 0) or (self.pos[0] < self.points[self.point +1][0] and x < 0):
+        if (xNow ==  xGoal and  yNow == yGoal) or (self.pos[0] > self.points[self.point +1][0] and x > 0) or (self.pos[0] < self.points[self.point +1][0] and x < 0) or (self.pos[1] < self.points[self.point +1][1] and y < 0) or (self.pos[1] > self.points[self.point +1][1] and y > 0):
             self.point += 1
             self.pos = list(self.points[self.point])
         return False
@@ -121,7 +123,7 @@ def gameLoop():
                 elif event.key == pygame.K_7: listy.append(Dot(parameter,.7))
                 elif event.key == pygame.K_8: listy.append(Dot(parameter,.8))
                 elif event.key == pygame.K_9: listy.append(Dot(parameter,.9))
-                else: listy.append(Dot(parameter,1))
+                else: listy.append(Dot(parameter,3))
         gameDisplay.fill((0,0,0))
         pygame.draw.lines(gameDisplay,(255,153,51),False,pointlist,10)
         for dot in listy:
