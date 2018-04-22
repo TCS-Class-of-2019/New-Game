@@ -7,10 +7,12 @@ import math
 pygame.init()
 
 gameDisplay = pygame.display.set_mode((800,600))
-pygame.display.set_caption("Tower Defense")
+pygame.display.set_caption("TOWER DEFENSE")
+
+
+crashed = False
 
 coin = pygame.image.load('Dot.png')
-
 class Dot(object):
     def __init__(self,points,speed=1):
         self.points = points
@@ -19,7 +21,8 @@ class Dot(object):
         self.img = coin
         self.speed = speed
         if self.speed > 1: self.speed = 1
-        elif self.speed < .1: self.speed = .1      
+        elif self.speed < .1: self.speed = .1
+        
 
     def display(self):
         if self.point == len(self.points)-1:
@@ -74,8 +77,28 @@ def intro():
             elif event.type == pygame.MOUSEBUTTONDOWN:
                 if 330 < event.pos[0] < 470 and 250 < event.pos[1] < 350: done = True
 
+def displayScore(text):
+    font = pygame.font.Font('freesansbold.ttf',20)
+    TextSurf = font.render(text,True,(127,127,127))
+    TextRect = TextSurf.get_rect()
+    TextRect.center = ((740),(25))
+    gameDisplay.blit(TextSurf, TextRect)
+
+def displayLoss():
+    c = 0
+    gameDisplay.fill((0,0,0))
+    while c < 1000:
+        font = pygame.font.Font('freesansbold.ttf',80)
+        TextSurf = font.render("YOU LOSE",True,(127,127,127))
+        TextRect = TextSurf.get_rect()
+        TextRect.center = ((400),(300))
+        gameDisplay.blit(TextSurf, TextRect)
+        pygame.display.update()
+        c += 1
+
 def gameLoop():
     c = 0
+    lives = 1
     done = False
     points =((10,50),(600,50),(600,550),(100,550),(100,150),(400,150),(400,400),(200,400),(200,200),(300,300),(500,300),(300,100),(700,100),(700,570),(50,570),(320,345))
     parameter = list(points)
@@ -103,11 +126,17 @@ def gameLoop():
         pygame.draw.lines(gameDisplay,(255,153,51),False,pointlist,10)
         for dot in listy:
             if dot is not None:
-                if dot.display(): listy.remove(dot)
+                if dot.display():
+                    listy.remove(dot)
+                    lives -= 1
+        displayScore(str(lives) + " lives")
         pygame.display.update()
+        if lives == 0: return
 
 intro()
 gameLoop()
+displayLoss()
+    
 
 pygame.quit()
 quit()
