@@ -130,4 +130,9 @@ Update 1.1.3 -------------------------------------------------------------------
 In the latest update the game has been given a start menu and will enter the game when the start button is pushed.
 Since this is a universal need, it will apply to any game we decide to make. Also the track is a bit crazier.
 
+Update 1.1.4 --------------------------------------------------------------------------------------------------
+
+The tower-defense-prototype.py file now includes faster speeds available, which are necessary to combat lag.
+Also, a new .png file was uploaded to be the icon for the game, since we won't want to be using pygame's default.
+
 ---------------------------------------------------------------------------------------------------------------
