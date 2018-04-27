@@ -1,0 +1,8 @@
+Howdy, it's THE jelloman639
+
+So... Matt I was wondering what IDE you are using because I'm having trouble installing the pygame 
+module onto my PC. Any help would be greatly appreciated. I have the current Python version installed,
+but I'm not sure if I have pip installed and if I do, how to use it. I'm using PyCharm as my IDE.
+
+Thanks,
+THE jelloman639
