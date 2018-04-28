@@ -6,3 +6,17 @@ but I'm not sure if I have pip installed and if I do, how to use it. I'm using P
 
 Thanks,
 THE jelloman639
+
+----------------------------------------------------------------------------------------------------------------------
+
+Hey, MattZ45986 speaking...
+
+I use Python's IDLE (3.6 64-bit). To get pip, follow the instructions on "https://pip.pypa.io/en/stable/installing/".
+To install pygame, put this --> "py -m pip install -U pygame --user" in the command prompt and you should get a result
+a loading bar and a download within the prompt. If it says there is a syntax error, that is because pip isn't installed.
+Now, if after all of this doesn't work, it is probably because python isn't on the windows PATH.
+Follow the instructions here "https://stackoverflow.com/questions/3701646/how-to-add-to-the-pythonpath-in-windows-7".
+By the way, PyCharm should be fine. Hope that helps!
+
+-MattZ45986
+
