@@ -135,4 +135,10 @@ Update 1.1.4 -------------------------------------------------------------------
 The tower-defense-prototype.py file now includes faster speeds available, which are necessary to combat lag.
 Also, a new .png file was uploaded to be the icon for the game, since we won't want to be using pygame's default.
 
----------------------------------------------------------------------------------------------------------------
+Update 1.1.5 ---------------------------------------------------------------------------------------------------
+
+There has been a proposal for another type of game to be added to the list of possible games: a text-based simulator.
+Basically, the player would choose different outcomes for various situations and therefore get a different storyline.
+The game would have multiple choice and voice-overs.  It would be easy to code, but maybe playable only a few times.
+
+----------------------------------------------------------------------------------------------------------------
